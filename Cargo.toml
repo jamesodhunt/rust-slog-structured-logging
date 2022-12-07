@@ -1,0 +1,15 @@
+[package]
+name = "test-structured-logging-most-basic"
+version = "0.1.0"
+authors = ["James O. D. Hunt <jamesodhunt@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+slog = "2.7.0"
+slog-async = "2.7.0"
+slog-json = "2.6.1"
+slog-scope = "4.4.0"
+slog-term = "2.9.0"
